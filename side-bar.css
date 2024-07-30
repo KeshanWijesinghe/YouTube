@@ -1,0 +1,191 @@
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 190px;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(19, 16, 16);
+}
+
+.top {
+    background-color: rgb(19, 16, 16);
+    display: flex;
+    flex-direction: column;
+    margin: 5px 9px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
+
+.home,
+.shorts,
+.subscriptions {
+    display: flex;
+    align-items: center;  
+    padding: 9px 12px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    border-radius: 10px;
+}
+
+.home i,
+.shorts i,
+.subscriptions i{
+    margin-right: 18px;
+    color: white;
+}
+
+.home:hover,
+.shorts:hover,
+.subscriptions:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+
+
+.middle1 {
+    background-color: rgb(19, 16, 16);
+    display: flex;
+    flex-direction: column;
+    margin: 5px 9px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
+
+.you,
+.your-channel,
+.history,
+.playlists,
+.your-videos,
+.watch-later,
+.liked-videos,
+.downloads,
+.your-clips {
+    display: flex;
+    align-items: center;  
+    padding: 9px 12px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    border-radius: 10px;
+}
+
+.you p{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.you i,
+.your-channel i,
+.history i,
+.playlists i,
+.your-videos i,
+.watch-later i,
+.liked-videos i,
+.downloads i,
+.your-clips i{
+    margin-right: 18px;
+    color: white;
+}
+
+.you:hover,
+.your-channel:hover,
+.history:hover,
+.playlists:hover,
+.your-videos:hover,
+.watch-later:hover,
+.liked-videos:hover,
+.downloads:hover,
+.your-clips:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+
+
+.middle2 {
+    background-color: rgb(19, 16, 16);
+    display: flex;
+    flex-direction: column;
+    margin: 5px 9px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
+
+.explore,
+.trending,
+.music,
+.gaming,
+.sports {
+    display: flex;
+    align-items: center;  
+    padding: 9px 12px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    border-radius: 10px;
+}
+
+.explore p{
+    font-weight: bold;
+}
+
+.explore i,
+.trending i,
+.music i,
+.gaming i,
+.sports i{
+    margin-right: 18px;
+    color: white;
+}
+
+.trending:hover,
+.music:hover,
+.gaming:hover,
+.sports:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+
+
+.low {
+    background-color: rgb(19, 16, 16);
+    display: flex;
+    flex-direction: column;
+    margin: 5px 9px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
+
+.settings,
+.report-history,
+.help,
+.send-feedback {
+    display: flex;
+    align-items: center;  
+    padding: 9px 12px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    border-radius: 10px;
+}
+
+.settings i,
+.report-history i,
+.help i,
+.send-feedback i{
+    margin-right: 18px;
+    color: white;
+}
+
+.settings:hover,
+.report-history:hover,
+.help:hover,
+.send-feedback:hover {
+    background-color: rgb(59, 59, 59);
+}

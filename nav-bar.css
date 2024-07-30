@@ -1,0 +1,145 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(19, 16, 16);
+    z-index: 100;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.yt-logo{
+    width: 80px;
+    cursor: pointer;
+}
+
+.hamburger-icon {
+    border-radius: 50%;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.hamburger-icon i{
+    color: white;
+    padding: 8px 9px;
+}
+
+.hamburger-icon:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+
+
+.middle-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    background-color: rgb(19, 16, 16);
+    width: 450px;
+    height: 33px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid rgb(59, 59, 59);
+    outline: none;
+}
+
+.search-button {
+    background-color: rgb(39, 38, 38);
+    border: 1px solid rgb(59, 59, 59);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 33px;
+    width: 50px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+.search-bar i{
+    color: white;
+}
+
+.search::placeholder {
+    padding: 10px 15px;
+}
+
+.mic {
+    background-color: rgb(39, 38, 38);
+    padding: 8px 10px;
+    border-radius: 100px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.mic i{ 
+    color: white;
+}
+
+.mic:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+
+.right-side {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-video {
+    padding: 8px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.add-video i{
+    color: white;
+}
+
+.add-video:hover {
+    background-color: rgb(59, 59, 59);
+    border: none;
+    border-radius: 50px;
+}
+
+.bell{
+    padding: 8px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.bell i{
+    color: white;
+}
+
+.bell:hover {
+    background-color: rgb(59, 59, 59);
+    border: none;
+    border-radius: 50px;
+}
+
+.profile-photo img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    margin-top: 2px;
+    margin-left: 20px;
+    cursor: pointer;
+}

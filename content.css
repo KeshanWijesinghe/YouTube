@@ -1,0 +1,95 @@
+span{
+    font-size: 12px;
+}
+
+.youtube-video {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.thumbnail {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.thumbnail-photo {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.thumbnail-time {
+    position: absolute;
+    bottom: 10px;
+    right: 3px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.thumbnail-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.video-details {
+    margin-left: 10px;
+}
+
+.video-title {
+    font-size: 13px;
+    font-weight: 550;
+    width: 200px;
+    color: white;  
+    margin-bottom: -3px;
+}
+
+.channel-name {
+    margin-top: 10px;
+}
+
+.channel-name,
+.views-upload-time {
+    font-size: 12px;
+    color: gray;
+    font-weight: 540;   
+    margin-bottom: 3px;
+}
+
+.video-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.video-title a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.channel-name a {
+    font-size: 14px;
+    color: gray;
+    font-weight: 540;
+    text-decoration: none;
+}
+
+.channel-name a:visited {
+    text-decoration: none;
+    color: gray;
+}
